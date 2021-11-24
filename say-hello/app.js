@@ -1,6 +1,6 @@
 const middy = require('@middy/core');
 
-// /customers/{customerId}
+// /say-hello
 const sayHello = async (event, context) => {    
     return JSON.stringify({
         statusCode: 200,
